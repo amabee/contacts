@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+}
+
+.form-label{
+    margin-bottom: 2rem;
+}
+
+.img
+{
+    height: auto;
+    width: 100px;  
+}
+
+
+.rounded-2{
+    border-radius: 10rem!important;
+}
+
+tbody{
+    font-size: 20px;
+}
+
+i.fa-solid{
+    cursor: pointer;
+    color: #e63392;
+}
+
+i.fa-solid:hover{
+    color: #75C8FB;
+
+} 
+
+.table-class{
+    width: auto;
+    height: auto;
+    padding: 24px;
+    border-radius: 10px;
+   background-color: azure;
+}
+
